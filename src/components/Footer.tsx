@@ -66,7 +66,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-        <p>© 2024 Insight template. All Rights Reserved.</p>
+        <p>© 2024 Marlboro Security. All Rights Reserved.</p>
       </div>
     </footer>
   );
