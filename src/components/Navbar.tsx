@@ -26,7 +26,7 @@ export default function Navbar() {
           <Link href="/"><span className="text-base text-gray-800 hover:text-pink-600 font-medium">Home</span></Link>
           <Link href="/AboutUs"><span className="text-base text-gray-800 hover:text-pink-600 font-medium">About Us</span></Link>
           <Link href="/OurService"><span className="text-base text-gray-800 hover:text-pink-600 font-medium">Services</span></Link>
-          <Link href="#"><span className="text-base text-gray-800 hover:text-pink-600 font-medium">Industries We Serve</span></Link>
+          <Link href="/Industries"><span className="text-base text-gray-800 hover:text-pink-600 font-medium">Industries We Serve</span></Link>
           <Link href="#"><span className="text-base text-gray-800 hover:text-pink-600 font-medium">Contact Us</span></Link>
         </div>
 
@@ -57,7 +57,7 @@ export default function Navbar() {
           <Link href="#"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Home</span></Link>
           <Link href="/AboutUs"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">About Us</span></Link>
           <Link href="/OurService"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Services</span></Link>
-          <Link href="#"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Industries We Serve</span></Link>
+          <Link href="/Industries"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Industries We Serve</span></Link>
           <Link href="#"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Contact Us</span></Link>
           <div className="pt-2 text-pink-600 font-semibold text-base">
             <p>(239)-543–217–0108</p>

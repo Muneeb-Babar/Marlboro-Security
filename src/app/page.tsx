@@ -3,7 +3,8 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import PromotionBanner from "@/components/PromotionBanner";
-import OurServices from "./OurService/page";
+import OurServices from "@/components/Service";
+import IndustriesWeServe from "@/components/IndustriesWeServe";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <HeroSection/>
     <About/>
     <OurServices/>
+    <IndustriesWeServe/>
     <PromotionBanner/>
     <Footer/>
     </>
