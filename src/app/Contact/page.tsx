@@ -1,6 +1,6 @@
 import MainBreadcum from '@/components/BreadCum'
+import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
-import IndustriesWeServe from '@/components/IndustriesWeServe'
 import Navbar from '@/components/Navbar'
 import PromotionBanner from '@/components/PromotionBanner'
 import React from 'react'
@@ -9,8 +9,8 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      <MainBreadcum name='Industries We Serve' pageName='Industries We Serve'/>
-      <IndustriesWeServe/>
+      <MainBreadcum name='Contact Us' pageName='Contact Us' />
+      <ContactForm/>
       <PromotionBanner/>
       <Footer/>
     </div>

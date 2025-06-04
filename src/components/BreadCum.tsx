@@ -25,11 +25,14 @@ const MainBreadcum: React.FC<BannerSectionProps> = ({ name, pageName }) => {
     >
       <Box>
         <Image
-          src='/assets/bread1.webp'
+          src='/assets/mainBread.jpg'
           alt="Banner Background"
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          quality={100}
+          className="absolute inset-0"
+          style={{ zIndex: 0 }}
           priority
         />
       </Box>

@@ -2,6 +2,8 @@
 
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 const Footer = () => {
   return (
@@ -10,7 +12,15 @@ const Footer = () => {
         {/* Logo & Description */}
         <div>
           <div className="flex items-center space-x-2 mb-4">
-            <img src="https://img.freepik.com/premium-vector/simple-black-white-color-security-escort-logo_639175-1555.jpg?ga=GA1.1.437055642.1699790829&semt=ais_items_boosted&w=740" alt="logo" className="h-10 w-auto" />
+            <Image
+                        src="/assets/logo.jpg"
+                        alt="Security Professional"
+                        width={40}
+                        height={40}
+                        // className="object-contain"
+                        priority
+                      />
+            {/* <img src={logo} alt="logo" className="h-10 w-auto" /> */}
             <h2 className="text-xl font-semibold">Marlboro Security</h2>
           </div>
           <p className="text-sm text-gray-300">
@@ -25,10 +35,10 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4">Quick Link</h3>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
+            <li><Link href="/AboutUs">About Us</Link></li>
+            <li><Link href="/OurService">Services</Link></li>
             <li><a href="#">Case</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><Link href='/Contact'>Contact Us</Link></li>
           </ul>
         </div>
 
@@ -46,19 +56,25 @@ const Footer = () => {
         {/* Contact */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
-          <p className="text-sm text-gray-300 mb-4">Tincidunt neque pretium lectus donec risus.</p>
+          {/* <p className="text-sm text-gray-300 mb-4">Tincidunt neque pretium lectus donec risus.</p> */}
           <div className="space-y-3 text-sm text-gray-300">
             <div className="flex items-center space-x-2">
-              <FaMapMarkerAlt className="text-pink-500" />
-              <span>New Hyde Park, NY 11040</span>
+              <FaMapMarkerAlt className="text-pink-500 size-6" />
+              <span>Karachi Office: 1st and 2nd Floor, Plot # 54-C, Main Khayaban e Ittehad, DHA Phase 6, Karachi
+Ph: 021-37120581</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <FaMapMarkerAlt className="text-pink-500 size-5" />
+              <span>Lahore Office: T-84, First Floor, Commercial Area, Phase II, DHA, Lahore
+Ph: 042-3570749</span>
             </div>
             <div className="flex items-center space-x-2">
               <FaEnvelope className="text-pink-500" />
-              <span>example@info.com</span>
+              <span>info@marlbrosecueity.com</span>
             </div>
             <div className="flex items-center space-x-2">
               <FaPhoneAlt className="text-pink-500" />
-              <span>333 666 0000</span>
+              <span>0321-5814774</span>
             </div>
           </div>
         </div>

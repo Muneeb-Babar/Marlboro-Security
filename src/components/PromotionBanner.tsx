@@ -13,7 +13,7 @@ const PromotionBanner = () => {
             Get Professional <br /> security service.
           </h1>
           <Link
-            href="#contact"
+            href="/Contact"
             className="inline-block mt-6 px-6 py-3 bg-blue-900 hover:bg-blue-800 text-white rounded-md text-sm font-medium"
           >
             Contact With Us

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import fingerprint from "@/public/assets/finger.png";
 import heroImage from "@/public/assets/guard.jpg"; 
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -20,9 +21,11 @@ export default function HeroSection() {
           <p className="text-lg text-gray-300">
             Marlboro Security has built a solid reputation as one of Pakistan’s most reliable and professional security services providers. With 20 years of experience in the field, we offer unmatched expertise in safeguarding life, property, and assets.
           </p>
-          <button className="bg-gradient-to-r from-pink-500 to-orange-500 px-6 py-3 rounded-md font-semibold text-white hover:opacity-90 transition">
+          <Link
+            href="/AboutUs"
+            > <button className="bg-gradient-to-r from-pink-500 cursor-pointer to-orange-500 px-6 py-3 rounded-md font-semibold text-white hover:opacity-90 transition">
             Discover More →
-          </button>
+          </button></Link>
         </div>
 
         {/* Right Image */}

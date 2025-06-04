@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Service } from '@/Data/ServiceData'; 
+import Image from 'next/image';
 
 interface Props {
   service: Service;
@@ -10,12 +11,17 @@ const ServiceCard: React.FC<Props> = ({ service }) => {
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden transition hover:scale-105 duration-300">
       {service.image && (
-        <img
-          src={service.image}
-          alt={service.title}
-          className="w-full h-64 object-cover"
-        />
-      )}
+  <div className="w-full h-64 relative">
+    <Image
+      src={service.image}
+      alt={service.title}
+      layout="fill"
+      // objectFit="cover"
+      quality={100} 
+      priority 
+    />
+  </div>
+)}
 
       <div className="p-6">
         {service.tag && (
