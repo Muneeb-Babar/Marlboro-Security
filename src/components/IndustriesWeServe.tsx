@@ -12,37 +12,37 @@ import SectorCard from '@/components/SectorCards';
 
 const sectors = [
   {
-    icon: <HiBanknotes />,
+    icon: <HiBanknotes className='text-pink-600'/>,
     title: 'Banks & Financial Institutions',
     description:
       'Secure handling of financial assets, branch security, ATM protection, and mobile cash van escort services.',
   },
   {
-    icon: <HiAcademicCap />,
+    icon: <HiAcademicCap className='text-pink-600'/>,
     title: 'Educational Institutes',
     description:
       'School, college, and university security with a focus on access control, student safety, and staff protection.',
   },
   {
-    icon: <HiHomeModern />,
+    icon: <HiHomeModern className='text-pink-600'/>,
     title: 'Residential Premises',
     description:
       'Guarding gated communities, apartments, and private residences to ensure safety, privacy, and peace of mind for residents.',
   },
   {
-    icon: <HiBuildingOffice />,
+    icon: <HiBuildingOffice className='text-pink-600'/>,
     title: 'Commercial Areas',
     description:
       'Malls, plazas, offices, and industrial zones benefit from our presence through visible deterrence and access management.',
   },
   {
-    icon: <HiGlobeAlt />,
+    icon: <HiGlobeAlt className='text-pink-600'/>,
     title: 'Multinational Firms',
     description:
       'Comprehensive protection for multinational offices, staff, and infrastructure with a focus on corporate security protocols.',
   },
   {
-    icon: <HiTruck />,
+    icon: <HiTruck className='text-pink-600'/>,
     title: 'Mobile Vans & Cash-in-Transit',
     description:
       'Escort and secure transport of cash and valuables, ensuring safe delivery through GPS tracking and armed security.',
