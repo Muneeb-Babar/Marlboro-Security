@@ -10,7 +10,7 @@ const OurServices = () => {
       <div className="max-w-7xl mx-auto px-4 text-center">
         <p className="text-pink-600 font-medium text-4xl mb-6">Our Services</p>
         <p className="text-lg  text-gray-900 mb-18 mx-auto max-w-2xl">
-          At Marlboro Security, we deliver a wide range of professional security services, tailored to meet diverse client needs across multiple industries. Our personnel are rigorously trained, background-checked, and committed to upholding the highest standards of vigilance and integrity.
+          At Marlbro Security, we deliver a wide range of professional security services, tailored to meet diverse client needs across multiple industries. Our personnel are rigorously trained, background-checked, and committed to upholding the highest standards of vigilance and integrity.
         </p>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

@@ -42,7 +42,7 @@ export default function About() {
             Established Private Security Experts You Can Trust
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            Established over two decades ago, <strong>Marlboro Security</strong> has built a solid
+            Established over two decades ago, <strong>Marlbro Security</strong> has built a solid
             reputation as one of Pakistan’s most reliable and professional security services
             providers. With 20 years of experience in the field, we offer unmatched expertise in
             safeguarding life, property, and assets.

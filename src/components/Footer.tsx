@@ -21,10 +21,10 @@ const Footer = () => {
                         priority
                       />
             {/* <img src={logo} alt="logo" className="h-10 w-auto" /> */}
-            <h2 className="text-xl font-semibold">Marlboro Security</h2>
+            <h2 className="text-xl font-semibold">Marlbro Security</h2>
           </div>
           <p className="text-sm text-gray-300">
-           Marlboro Security has built a solid reputation as one of Pakistan’s most reliable and professional security services providers. With 20 years of experience in the field, we offer unmatched expertise in safeguarding life, property, and assets.
+           Marlbro Security has built a solid reputation as one of Pakistan’s most reliable and professional security services providers. With 20 years of experience in the field, we offer unmatched expertise in safeguarding life, property, and assets.
           </p>
           {/* <p className="text-sm text-gray-300 mt-4">
             Nisl viverra massa imperdiet. Dui mattis quis congue fames.
@@ -82,7 +82,7 @@ Ph: 042-3570749</span>
 
       {/* Bottom Bar */}
       <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-        <p>© 2024 Marlboro Security. All Rights Reserved.</p>
+        <p>© 2024 Marlbro Security. All Rights Reserved.</p>
       </div>
     </footer>
   );

@@ -14,12 +14,12 @@ export default function HeroSection() {
           <Image src='/assets/finger.png' alt="Fingerprint" className="w-24 h-24" width={100} height={100} />
           <h4 className="text-lg font-semibold">Discover The Truth</h4>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-            Marlboro  <br />
+            Marlbro  <br />
             Security  <br />
             Services
           </h1>
           <p className="text-lg text-gray-300">
-            Marlboro Security has built a solid reputation as one of Pakistan’s most reliable and professional security services providers. With 20 years of experience in the field, we offer unmatched expertise in safeguarding life, property, and assets.
+            Marlbro Security has built a solid reputation as one of Pakistan’s most reliable and professional security services providers. With 20 years of experience in the field, we offer unmatched expertise in safeguarding life, property, and assets.
           </p>
           <Link
             href="/AboutUs"

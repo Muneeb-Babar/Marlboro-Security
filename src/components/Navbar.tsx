@@ -26,7 +26,7 @@ export default function Navbar() {
                                   priority
                                 />
           <span className="text-2xl font-semibold text-gray-800">
-            Marlboro Security
+            Marlbro Security
           </span>
         </div>
 

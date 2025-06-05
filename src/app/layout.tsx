@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Marlboro Security",
-  description: "Marlboro Security has built a solid reputation as one of Pakistan’s most reliable and professional security services providers.",
+  title: "Marlbro Security",
+  description: "Marlbro Security has built a solid reputation as one of Pakistan’s most reliable and professional security services providers.",
 };
 
 export default function RootLayout({
