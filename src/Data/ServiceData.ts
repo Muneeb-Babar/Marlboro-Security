@@ -76,7 +76,7 @@ export const services: Service[] = [
     id: 10,
     title: 'Security Consultancy & Risk Assessment',
     description: 'Professional site surveys, risk analysis, and custom security planning to help you build a proactive and cost-effective security strategy.',
-    image: '/assets/ser.jpg',
+    image: '/assets/ser10.jpg',
     tag: 'Consultancy',
   }
 ];

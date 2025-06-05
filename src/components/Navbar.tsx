@@ -49,7 +49,7 @@ export default function Navbar() {
           </div>
           <Link href="#">
             <span className="bg-gradient-to-r from-pink-500 to-orange-400 text-white px-6 py-3 rounded-md text-base font-semibold hover:opacity-90 transition">
-              Let’s Contact →
+              Log In →
             </span>
           </Link>
         </div>
@@ -68,12 +68,15 @@ export default function Navbar() {
           <Link href="/OurService"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Services</span></Link>
           <Link href="/Industries"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Industries We Serve</span></Link>
           <Link href="/Contact"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Contact Us</span></Link>
-          <div className="pt-2 text-pink-600 font-semibold text-base">
+          <div className="pt-2 text-pink-600 font-semibold text-base flex items-center space-x-2">
+            <svg className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 5h12M9 3v2m6 4v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 00-1 1v1m-6 0h6" />
+            </svg>
             <p>0321-5814774</p>
           </div>
           <Link href="#">
             <span className="inline-block mt-2 bg-gradient-to-r from-pink-500 to-orange-400 text-white px-6 py-3 rounded-md text-base font-semibold hover:opacity-90 transition">
-              Let’s Contact →
+              Log In →
             </span>
           </Link>
         </div>
