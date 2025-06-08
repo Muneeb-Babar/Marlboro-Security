@@ -1,5 +1,3 @@
-// data/services.ts
-
 export interface Service {
   id: number;
   title: string;

@@ -63,7 +63,7 @@ export default function Navbar() {
       {/* Mobile Nav */}
       {isOpen && (
         <div className="lg:hidden bg-white px-4 pt-4 pb-6 space-y-3 shadow-md">
-          <Link href="#"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Home</span></Link>
+          <Link href="/"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Home</span></Link>
           <Link href="/AboutUs"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">About Us</span></Link>
           <Link href="/OurService"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Services</span></Link>
           <Link href="/Industries"><span className="block text-base text-gray-800 hover:text-pink-600 font-medium">Industries We Serve</span></Link>
